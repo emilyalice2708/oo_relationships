@@ -4,8 +4,7 @@ class User
         @name = name
         @bio = bio
         @age = age
-        @password = password
-        @authenticator = Authenticater.new(@password)
+        @authenticator = Authenticater.new(password)
     end
 
     def profile
